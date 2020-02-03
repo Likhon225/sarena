@@ -1,0 +1,276 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.container{
+    width: 1001px;
+    margin: auto;
+}
+.btn-custom{text-decoration: none;border: 2px solid #343433;display: inline-block;padding: 12px 30px;color: #3A3938;margin-top: 24px;margin-bottom: 140px;}
+h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+h2{}
+h3{}
+h3{}
+h4{}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+header{
+
+background: #DDC3AC;
+}
+nav{}
+nav ul{
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+nav ul li a {
+    color: #333333;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+nav ul li a h1 {}
+
+.banner_content{
+    text-align: center;
+    width: 320px;
+    margin: auto;
+}
+.banner_content h1{
+    font-size: 35px;
+    color: #fff;
+}
+.banner_content p{}
+.banner_content btn-custom{}
+
+/*content section*/
+article{
+    overflow: hidden;
+}
+.yoga_img{
+    float: left;
+    width: 50%;
+}
+.yoga_img img{
+    max-width: 100%;
+}
+.yoga_content{
+    float: right;
+    width: 50%;
+}
+.yoga_content h1{
+    font-size: 35px;
+    color: #333333;
+    padding-left: 130px;
+    padding-top: 74px;
+}
+.yoga_content p{
+    padding-left: 97px;
+    width: 309px;
+    line-height: 1.7;
+    color: #9B9B9B;
+}
+.yoga_bottom{padding-top: 66px;letter-spacing: 3px;color: #333333 !important;padding-left: 148px !important;}
+
+
+/*yoga type article*/
+.yoga_type{
+    background: #F0F0F0;
+    text-align: center;
+}
+.yoga_wrapper{
+    
+margin: 80px 0;
+}
+.yoga_type .yo-content{
+    width: 400px;
+    margin: auto;
+    border-bottom: 1px solid #BABABA;
+    margin-bottom: 30px;
+}
+.yoga_type h2{
+    font-size: 14px;
+    color: #626262;
+    text-transform: uppercase;
+}
+.yoga_type p{
+    font-size: 14px;
+    color: #BABABA;
+}
+.yoga_type a{
+    text-decoration: none;
+    border: 2px solid #343433;
+    display: inline-block;
+    padding: 12px 30px;
+    color: #3A3938;
+    margin-top: 24px;
+    /* margin-bottom: 140px; */
+}
+
+article{
+    overflow: hidden;
+}
+.summer{
+    float: left;
+    width: 50%;
+}
+.summer img{
+    
+    max-width: 100%;
+}
+.summer_content{
+    float: right;
+    width: 50%;
+}
+.summer_content h2{
+    font-size: 27px;
+    color: #333333;
+    padding-left: 130px;
+    padding-top: 42px;
+}
+.summer_content p{
+    padding-left: 97px;
+    width: 290px;
+    line-height: 1.7;
+    color: #9B9B9B;
+    text-align: justify;
+    font-size: 14px;
+}
+.summer_content h3{
+    font-size: 19px;
+    color: #333333;
+    padding-left: 140px;
+    padding-top: 13px;
+}
+.summer_content div{
+    
+margin-left: 154px;
+}
+article a{
+    text-decoration: none;
+    border: 2px solid #343433;
+    display: inline-block;
+    padding: 10px 23px;
+    color: #3A3938;
+    margin-top: 24px;
+}
+.about{
+    float: right;
+    width: 50%;
+}
+.about img{
+    
+    max-width: 100%;
+}
+.about_content{
+    float: left;
+    width: 50%;
+}
+.about_content h2{
+    font-size: 27px;
+    color: #333333;
+    padding-left: 259px;
+    padding-top: 42px;
+}
+.about_content p{
+    padding-left: 215px;
+    width: 290px;
+    line-height: 1.7;
+    color: #9B9B9B;
+    text-align: justify;
+    font-size: 14px;
+}
+.about_content h3{
+    font-size: 19px;
+    color: #333333;
+    padding-left: 235px;
+    padding-top: 13px;
+}
+.about_content div{
+    
+margin-left: 285px;
+}
+.join_section{
+    background: #F4D4C1;
+    text-align: center;
+    padding: 90px;
+}
+.join_section h2{
+    width: 297px;
+    margin: auto;
+    padding-bottom: 18px;
+    color: #fff;
+}
+.join_section a{}
+
+.img_section{
+    background: #ECECEC;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.img_section div{
+    overflow: hidden;
+    margin: auto;
+    width: 712px;
+}
+.img_section img{
+    float: left;
+    padding: 13px;
+    padding-top: 140px;
+}
+.img_section ul{
+    margin-bottom: 0;
+}
+.img_section li{
+    display: inline-block;
+    padding: 4px;
+}
+.img_section a{
+    color: #333333;
+    font-size: 22px;
+}
+.img_section h3{
+    display: inline-block;
+    padding: 20px;
+    font-size: 15px;
+    padding-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
